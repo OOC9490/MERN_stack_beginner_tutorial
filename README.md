@@ -8,13 +8,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Commands you will need to install/run
 
-Note you will need to sign up for a mongoDB account:
+### Note you will need to sign up for a mongoDB account:
 
-[MongoDB sign-up](https://www.mongodb.com/download-center)
+[MongoDB sign-up](https://www.mongodb.com/download-center) and you will need to generate a UTI link to put in the the ".env" file with the backend directory.
 
 (I created my cluster on AWS - Australia Region)
 
-I recommend setting up the backend/ frontend in the order below:
+### I recommend setting up the backend/ frontend in the order below:
 
 # BACKEND
 
@@ -27,6 +27,8 @@ I recommend setting up the backend/ frontend in the order below:
 - npm install -g nodemon (NOTE: this will install nodemon onto your machine, this allows your node.js applications to restart when file changes in their directory are detected)
 
 - brew cask install insomnia (this is for testing requests towards your backend routes)
+
+To run the server, type "nodemon server" in the backend directory
 
 # FRONTEND
 
